@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid #ffa500;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    animation: slideIn 1s ease-out;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    margin-top: 0.5em;
+}
+
+.nav-links a {
+    color: #ffa500;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #ffa500;
+    color: #222;
+}
+
+/* Section principale */
+main {
+    flex-grow: 1;
+    padding: 2em;
+    max-width: 800px;
+    margin: 2em auto;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Contenu */
+.content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1em;
+    color: #ffa500;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1.5em;
+}
+
+/* Pied de page */
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 0.9rem;
+    border-top: 3px solid #ffa500;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .title {
+        font-size: 2rem;
+    }
+    .content h2 {
+        font-size: 1.5rem;
+    }
+    .content p {
+        font-size: 1rem;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* Effet de survol et transition */
+a, button {
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
