@@ -90,9 +90,11 @@ footer {
     .title {
         font-size: 2rem;
     }
+
     .content h2 {
         font-size: 1.5rem;
     }
+
     .content p {
         font-size: 1rem;
     }
@@ -102,6 +104,7 @@ footer {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -111,14 +114,14 @@ footer {
     from {
         transform: translateX(-100%);
     }
+
     to {
         transform: translateX(0);
     }
 }
 
 /* Effet de survol et transition */
-a, button {
+a,
+button {
     transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
-
-
