@@ -9,11 +9,10 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background: white;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url("/images/banniere.png");
+    background-image: url("../images/banniere.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
