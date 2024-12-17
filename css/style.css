@@ -161,19 +161,29 @@ footer {
 
 @media screen and (max-width: 600px) {
     body {
-        font-size: 14px;
+        flex-direction: column;
+    }
+    main{
+        height: 120vh;
     }
     .nav-links {
         position: relative;
         text-align: left;
         padding-left: 10px; 
     }
-    .container {
-        width: 90%;
-        margin: 0 auto;
+    .grid-container {
+        grid-template-columns: 1fr;
+        width: 95%;
+    }
+
+    .grid-item {
+        font-size: 16px;
+        padding: 15px;
     }
     footer{
-        padding: 0;
+        padding: 10px 0;
+        position: relative;
+        bottom: 0;
     }
 }
 
