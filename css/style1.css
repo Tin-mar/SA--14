@@ -220,3 +220,6 @@ footer {
         transform: translateX(0);
     }
 }
+    header {
+        height:auto;
+    }
