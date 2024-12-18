@@ -135,9 +135,6 @@ footer {
     color: #fff;
     font-size: 0.9rem;
     border-top: 2px solid #ffa500;
-    bottom: 0;
-    left: 0;
-    right: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -155,16 +152,15 @@ footer {
     }
     footer{
         padding: 10 px 0;
-    }
-    
+    }   
 }
 
 @media screen and (max-width: 600px) {
     body {
         flex-direction: column;
     }
-    main{
-        height: 120vh;
+    header {
+        height:auto;
     }
     .nav-links {
         position: relative;

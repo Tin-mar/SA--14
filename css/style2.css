@@ -159,8 +159,8 @@ footer {
     body {
         flex-direction: column;
     }
-    main{
-        height: 120vh;
+    header{
+        height:auto;
     }
     .nav-links {
         position: relative;

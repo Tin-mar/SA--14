@@ -153,15 +153,14 @@ footer {
     footer{
         padding: 10 px 0;
     }
-    
 }
 
 @media screen and (max-width: 600px) {
     body {
         flex-direction: column;
     }
-    main{
-        height: 120vh;
+    header {
+        height:auto;
     }
     .nav-links {
         position: relative;
