@@ -10,7 +10,7 @@ Dans mon code, j'ai utilisé à la fois la technologie Flexbox ainsi que CSS Gri
 
 ## Mea Culpa
 
-N'ayant remarqué qu'assez tard que les commits devaient être porteurs de sens, ils sont nommés uniquement par leur ordre de création. Je vous ai ainsi résumer leur contenu et ce qu'ils ont apporté au site final
+N'ayant remarqué qu'assez tard que les commits devaient être porteurs de sens, ils sont nommés uniquement par leur ordre de création. Je vous ai ainsi résumer leur contenu et ce qu'ils ont apporté au site final.
 
 First Commit : Début du projet et création des codes CSS et HTML.   
 Second Commit : Développement du code sans modification majeure.  
