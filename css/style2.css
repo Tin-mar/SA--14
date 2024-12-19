@@ -82,6 +82,18 @@ header {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.grid-item_1 {
+    background-color: white;
+    color: #ffa500;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    margin: auto;
+}
+
 main {
     flex-grow: 1;
     display: flex;
