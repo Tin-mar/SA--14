@@ -20,6 +20,10 @@ Fifth Commit : Développement du code et ajout de contenu textuel.
 Sixth Commit (x2) : Modification de quelques éléments.  
 Delete Image : Suppression d'une image inutile.    
 
+## Lien vers mon projet
+
+Voici le lien hébergeant directement mon site : https://tin-mar.github.io/SA--14/
+
 ## Auteur 
 
 Site crée par BRETONNÈRE Martin, étudiant au campus 3 de Ifs, à l'université Caen Normandie.
