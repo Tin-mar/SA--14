@@ -22,7 +22,7 @@ Delete Image : Suppression d'une image inutile.
 
 ## Lien vers mon projet
 
-Voici le lien hébergeant directement mon site : https://tin-mar.github.io/SA--14/html/accueil.html
+*Voici le lien hébergeant directement mon site* : https://tin-mar.github.io/SA--14/html/accueil.html
 
 ## Auteur 
 
